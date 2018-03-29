@@ -1,11 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityEditor;
 using System.Text;
 using System.IO;
 using System.Text.RegularExpressions;
 using System.Collections.Generic;
-using UnityEditor.SceneManagement;
+using UnityEngine.SceneManagement;
 
 public class DialogueParser : MonoBehaviour {
 
@@ -31,7 +30,7 @@ public class DialogueParser : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         string file = "Assets/Data/Dialogue";
-        var sceneNum = EditorSceneManager.GetActiveScene().name;
+        var sceneNum = SceneManager.GetActiveScene().name;
         sceneNum = Regex.Replace(sceneNum, "[^0-9]", "");
         file += sceneNum;
         file += ".txt";
