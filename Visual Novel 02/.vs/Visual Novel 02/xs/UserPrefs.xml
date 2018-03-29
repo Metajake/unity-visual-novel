@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{F254702B-E993-8562-BC41-3780A270C6FF}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DialogueManager.cs">
+    <Files>
+      <File FileName="Assets/Scripts/DialogueParser.cs" Line="38" Column="1" />
+      <File FileName="Assets/Scripts/DialogueManager.cs" Line="102" Column="45" />
+      <File FileName="Assets/Scripts/ChoiceButton.cs" Line="26" Column="50" />
+      <File FileName="Assets/Scripts/Character.cs" Line="8" Column="5" />
+      <File FileName="Assets/Data/Dialogue1.txt" Line="5" Column="38" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Visual_220Novel_22002 PreferredExecutionTarget="Unity.Editor" />
+</Properties>

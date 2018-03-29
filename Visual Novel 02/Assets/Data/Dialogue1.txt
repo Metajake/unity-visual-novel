@@ -1,0 +1,5 @@
+Jacob;I love getting a blowjob..;0;R
+Narrator;Something is happening.;0;R
+Narrator;Someone is looking for him.;0;R
+Player;Restart:scene,1;Continue:line,4
+Kristie;Watch where you're going!;0;L
