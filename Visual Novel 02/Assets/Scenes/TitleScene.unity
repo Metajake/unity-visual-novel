@@ -483,12 +483,12 @@ Prefab:
     - target: {fileID: 224930732666574966, guid: 2100e0ea4a833494cbd804a9dea8d15f,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: -20
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224930732666574966, guid: 2100e0ea4a833494cbd804a9dea8d15f,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 30
+      value: 41
       objectReference: {fileID: 0}
     - target: {fileID: 224930732666574966, guid: 2100e0ea4a833494cbd804a9dea8d15f,
         type: 2}
@@ -527,9 +527,32 @@ Prefab:
     - target: {fileID: 114947145516405746, guid: 2100e0ea4a833494cbd804a9dea8d15f,
         type: 2}
       propertyPath: m_Text
-      value: 'Dunno Bros.
-
-'
+      value: Dunno Bros.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114947145516405746, guid: 2100e0ea4a833494cbd804a9dea8d15f,
+        type: 2}
+      propertyPath: m_FontData.m_FontSize
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 114947145516405746, guid: 2100e0ea4a833494cbd804a9dea8d15f,
+        type: 2}
+      propertyPath: m_FontData.m_MaxSize
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 114947145516405746, guid: 2100e0ea4a833494cbd804a9dea8d15f,
+        type: 2}
+      propertyPath: m_FontData.m_MinSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114947145516405746, guid: 2100e0ea4a833494cbd804a9dea8d15f,
+        type: 2}
+      propertyPath: m_FontData.m_Alignment
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114947145516405746, guid: 2100e0ea4a833494cbd804a9dea8d15f,
+        type: 2}
+      propertyPath: m_FontData.m_VerticalOverflow
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 225978593965716388, guid: 2100e0ea4a833494cbd804a9dea8d15f, type: 2}
@@ -647,7 +670,7 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -708,6 +731,7 @@ GameObject:
   - component: {fileID: 1721714290}
   - component: {fileID: 1721714289}
   - component: {fileID: 1721714288}
+  - component: {fileID: 1721714292}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -778,3 +802,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1721714292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1721714287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1623d7f79b894cda8e93ea16db721e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nativeResolution: {x: 800, y: 600}
