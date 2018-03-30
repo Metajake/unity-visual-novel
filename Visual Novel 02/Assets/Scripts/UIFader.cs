@@ -6,9 +6,9 @@ public class UIFader : MonoBehaviour {
 
     public CanvasGroup uiElement;
 
-    public void FadeIn()
+    public void FadeIn(float start, float end, float duration)
     {
-        StartCoroutine(FadeCanvasGroup(uiElement, uiElement.alpha, 1, .5f));
+        StartCoroutine(FadeCanvasGroup(uiElement, start, end, duration));
     }
 
     public void FadeOut()
