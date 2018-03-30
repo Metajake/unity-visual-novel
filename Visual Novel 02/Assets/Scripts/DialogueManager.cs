@@ -87,6 +87,7 @@ public class DialogueManager : MonoBehaviour {
             spriteObj.transform.position = new Vector3(-225, 0);
         }else if (position == "R"){
             spriteObj.transform.position = new Vector3(225, 0);
+            spriteObj.transform.localScale = new Vector3(-1, 1, 1);
         }
         spriteObj.transform.position = new Vector3(spriteObj.transform.position.x, spriteObj.transform.position.y, 0);
     }

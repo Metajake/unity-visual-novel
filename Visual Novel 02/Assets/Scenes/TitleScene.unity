@@ -524,6 +524,13 @@ Prefab:
       propertyPath: m_Name
       value: TitleText
       objectReference: {fileID: 0}
+    - target: {fileID: 114947145516405746, guid: 2100e0ea4a833494cbd804a9dea8d15f,
+        type: 2}
+      propertyPath: m_Text
+      value: 'Dunno Bros.
+
+'
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 225978593965716388, guid: 2100e0ea4a833494cbd804a9dea8d15f, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 2100e0ea4a833494cbd804a9dea8d15f, type: 2}
