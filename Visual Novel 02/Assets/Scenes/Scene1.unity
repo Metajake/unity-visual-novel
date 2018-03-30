@@ -900,6 +900,12 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114482469851277348, guid: 00d8f123430a3411ebef0d80ec32017a,
+        type: 2}
+      propertyPath: characterPoses.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 5c9c8d654244c411986c69ba15c1ceee,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 00d8f123430a3411ebef0d80ec32017a, type: 2}
   m_IsPrefabParent: 0
