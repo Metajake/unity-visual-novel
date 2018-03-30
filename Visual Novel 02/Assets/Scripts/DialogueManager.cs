@@ -15,7 +15,7 @@ public class DialogueManager : MonoBehaviour {
     public bool playerTalking;
     List<Button> buttons = new List<Button>();
 
-    public Text dialogueBox;
+    public TextDelayer dialogueBox;
     public Text nameBox;
     public GameObject choiceBox;
 
@@ -84,9 +84,9 @@ public class DialogueManager : MonoBehaviour {
 
     void SetSpritePositions(GameObject spriteObj){
         if(position == "L"){
-            spriteObj.transform.position = new Vector3(-6, 0);
+            spriteObj.transform.position = new Vector3(-225, 0);
         }else if (position == "R"){
-            spriteObj.transform.position = new Vector3(6, 0);
+            spriteObj.transform.position = new Vector3(225, 0);
         }
         spriteObj.transform.position = new Vector3(spriteObj.transform.position.x, spriteObj.transform.position.y, 0);
     }
@@ -110,7 +110,7 @@ public class DialogueManager : MonoBehaviour {
         if(!playerTalking){
             ClearButtons();
         }
-        dialogueBox.text = dialogue;
+        dialogueBox.Text = dialogue;
         nameBox.text = characterName;
     }
 
