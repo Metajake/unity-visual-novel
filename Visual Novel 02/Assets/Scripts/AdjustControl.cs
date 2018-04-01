@@ -21,5 +21,13 @@ public class AdjustControl : MonoBehaviour {
         {
             GameControl.control.experience -= 100;
         }
+        if (GUI.Button(new Rect(10, 260, 100, 30), "Save"))
+        {
+            GameControl.control.Save();
+        }
+        if (GUI.Button(new Rect(10, 300, 100, 30), "Load"))
+        {
+            GameControl.control.Load();
+        }
 	}
 }
